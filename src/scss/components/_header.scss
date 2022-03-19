@@ -1,0 +1,27 @@
+@use '../utils' as var;
+
+
+.header {
+  display: flex;
+  background: var.$color-grad;
+  
+  &--img {
+    padding: 1.3rem 1rem 1.3rem 1.3rem;
+  }
+
+  &--container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 90%; 
+    color: white;
+  }
+ 
+  &--title {
+    font-size: 2rem;
+  }
+
+  &--desc {
+    font-size: 1.3rem;
+  }
+}
